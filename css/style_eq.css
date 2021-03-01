@@ -1,0 +1,85 @@
+/* GENERAL */
+body {
+    font-family: 'Roboto', sans-serif;;
+    height: 100vh;
+    background-color: #272626;
+}
+
+/* UTILITIES */
+.container {
+    margin-bottom: 5px;
+}
+
+[class^="col-"] {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* HEADER */
+header {
+    height: 15vh;
+    line-height: 15vh;
+    background-image: linear-gradient(180deg, #9e9e9e, #696868);
+}
+header h1 {
+    font-family: 'Parisienne', cursive;
+    font-size: 50px;
+    text-align: center;
+}
+
+/* MAIN SECTION */
+.main-section {
+    height: 70vh;
+    padding: 40px 0;
+    background-color: #272626;
+}
+
+.main-section .cell {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.main-section .cell.red {
+    background-color: rgba(224, 0, 0, 0.3);
+}
+
+.main-section .cell.red.active {
+    background-color: rgba(224, 0, 0, 1);
+}
+
+.main-section .cell.yellow {
+    background-color: rgba(208, 183, 5, 0.3);
+}
+
+.main-section .cell.yellow.active {
+    background-color: rgba(208, 183, 5, 1);
+}
+
+.main-section .cell.green {
+    background-color: rgba(37, 206, 17, 0.3);
+}
+
+.main-section .cell.green.active {
+    background-color: rgba(37, 206, 17, 1);
+}
+
+.main-section .cell.text {
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    line-height: 40px;
+    text-align: center;
+    color: white;
+}
+
+/* Footer */
+footer {
+    height: 15vh;
+    background-image: linear-gradient(180deg,  #696868, #9e9e9e);
+    font-size: 18px;
+    text-align: center;
+    line-height: 15vh;
+}
+
+footer .red {
+    color: red;
+}
