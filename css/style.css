@@ -1,0 +1,18 @@
+/* GENERAL */
+body {
+    height: 100vh;
+    text-align: center;
+    background-image: linear-gradient(60deg, rgb(127, 255, 212), rgb(47, 198, 232));
+}
+
+h1,
+h2 {
+    padding: 20px 0;
+}
+
+/* UTILITIES */
+.box {
+    padding: 10px;
+    background-color: rgba(210, 165, 54, 0.5);
+    border: 1px solid rgba(210, 165, 54, 0.8);
+}
