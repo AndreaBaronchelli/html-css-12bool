@@ -29,9 +29,18 @@ header h1 {
 
 /* MAIN SECTION */
 .main-section {
+    position: relative;
     height: 70vh;
     padding: 40px 0;
     background-color: #272626;
+}
+
+.main-container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
 }
 
 .main-section .cell {
